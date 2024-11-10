@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+  
+section  {
+    @apply flex   justify-between text-black px-4 pt-4 font-bold sm:pb-3;
+}
+.navlist{
+    @apply flex gap-6;
+}
+.navlist li{
+    @apply hover:text-red-700 font-bold ;
+}
+.sidenavbar {
+    @apply fixed top-0 right-40 flex flex-col    w-1/2 h-1/2 bg-gray-500 text-white border-b-red-500 ;
+   
+}   
+.sideul li{
+    @apply border-red-500 m-3 hover:text-red-500;
+}
+/* styles.css or in a global CSS file */
+.bsc h3, .hsc h3 {
+    text-shadow: 0 0 20px red;
+}
+.myimage{
+    margin-top:20px;
+  border-radius: 100%;
+  
+}
+@keyframes slideInUp {
+    0% {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .animate-slideInUp {
+    animation: slideInUp 0.5s ease forwards;
+  }
+  .delay-200 {
+    animation-delay: 0.2s;
+  }
+  .delay-300 {
+    animation-delay: 0.3s;
+  }
+  @keyframes fadeInUp {
+    0% {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .animate-fadeInUp {
+    animation: fadeInUp 0.5s ease forwards;
+  }
+    

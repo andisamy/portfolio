@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+Header{
+  background-color: mediumblue;
+  color:white;
+   text-align: center;
+   font-family: 'Courier New', Courier, monospace;
+   padding:2px;
+}
+Content{
+background-color:green;
+}
+Footer{
+  background-color: mediumvioletred;
+  color:black;
+  font-family: 'Courier New', Courier, monospace;
+}
