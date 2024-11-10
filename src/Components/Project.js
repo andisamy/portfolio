@@ -9,8 +9,8 @@ const projectsData = [
     title: 'Project Portfolio',
     description: 'My portfolio, built with React.js and Tailwind CSS, highlights my web development skills through a clean, responsive design.The site reflects my technical expertise and creativity.',
     image:portpolio, 
-    githubLink: 'https://github.com/andisamy/calculate',
-    liveDemoLink: 'https://project-three.com',
+    githubLink: 'https://github.com/andisamy/myportfolio/tree/master',
+    liveDemoLink: 'https://andisamy.github.io/myportfolio/',
   },
   
   {
